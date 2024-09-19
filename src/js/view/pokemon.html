@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Pokémon Favorito</title>
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+  </head>
+  <body>
+    <main class="d-flex align-items-center justify-content-center" style="height: 100vh; width: 100vw;">
+      <div class="card border-0 shadow col-12 col-md-8">
+        <!-- Título del cuadro -->
+        <div class="card-header text-start">
+          <h5>Mi Pokémon favorito</h5>
+        </div>
+        <div class="card-body">   
+          <!-- Contenedor principal de imagen y detalles -->
+          <div class="row">
+            <!-- Columna de la imagen -->
+            <div class="col-md-4 d-flex justify-content-center mb-3 mb-md-0">
+              <img src="./src/img/Houndoom.png" class="img-fluid" alt="Houndoom">
+            </div>
+            <!-- Columna de detalles -->
+            <div class="col-md-8">
+              <h1 class="display-7">Houndoom</h1>
+              <div class="d-flex align-items-center mb-3">
+                <span class="badge bg-secondary me-1">N.º 0229</span>
+                <span class="badge bg-dark me-1">Siniestro</span>
+                <span class="badge bg-danger">Fuego</span>
+              </div>
+              <h2 class="border-bottom pt-2"></h2>
+              <!-- Contenedor para debilidades y tabla -->
+              <div class="row">
+                <!-- Columna de debilidades -->
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                  <h2>Debilidad</h2>
+                  <div>
+                    <span class="badge bg-danger" style="--bs-bg-opacity: .8;">Lucha</span>
+                    <span class="badge bg-info">Agua</span>
+                    <span class="badge bg-warning" style="--bs-bg-opacity: .7;">Tierra</span>
+                    <span class="badge bg-warning">Roca</span>
+                  </div>
+                </div>
+                
+                <!-- Columna de tabla -->
+                <div class="col-lg-6">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Altura</th>
+                          <th>Peso</th>
+                          <th>Categoría</th>
+                          <th>Habilidad</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1,4 m</td>
+                          <td>35 Kg</td>
+                          <td>Siniestro</td>
+                          <td>Madrugar</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Descripción -->
+              <div class="col-12 mt-3">
+                <h2>Descripción</h2>
+                <p>Si alguien se quema con las llamas que lanza por la boca, el dolor no desaparecerá nunca.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pie de tarjeta (para nombre y grupo) -->
+        <div class="card-footer text-center">
+          <h6>Jesus Juarez Perez | 4D DSM</h6>
+        </div>
+      </div>
+    </main>
+    <script src="../src/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
